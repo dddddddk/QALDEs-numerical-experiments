@@ -1,0 +1,12 @@
+n = 2; k = 3; m = 2;
+A = rand(n);
+d = rand(k, 1);
+x = rand(n, 1); b = rand(n, 1);
+% M = construct_forward_matrix(A, d, 'partial');
+% W = construct_backward_matrix(A, d);
+% T1 = construct_T(length(A), length(d), '1');
+% T2 = construct_T(length(A), length(d), '2');
+% L = construct_1_step_matrix(A, d);
+Lm = construct_m_step_forbackward_matrix(A, d, m);
+% ffLm = construct_m_step_forward_matrix(A, d, m);
+vec = construct_vec(x, b, m, d, 'forbackward');
