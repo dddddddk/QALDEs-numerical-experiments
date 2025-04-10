@@ -1,1 +1,5 @@
-Here are the code for the numerical experiments in "[An improved quantum algorithm for linear autonomous differential equations via Padé approximation](https://arxiv.org/abs/2504.06948)"
+The codes for the numerical experiments in "[An improved quantum algorithm for linear autonomous differential equations via Padé approximation](https://arxiv.org/abs/2504.06948)".
+
+Experiments 1, 2, and 4 can run directly. 
+
+Running experiment 3 is time comsuming. We provide the running results of Experiment 3 in './data/exp3', and one can get the resulting figure running \texttt{read_and_plot_exp3.m}.
